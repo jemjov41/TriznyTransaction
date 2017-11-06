@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">IncomeExpense</string>
+    <string name="navigation_drawer_open">string</string>
+    <string name="navigation_drawer_close">string</string>
+    <string name="action_settings">Hai</string>
+    <string name="my_email">triznylaras@gmail.com</string>
+    <string name="my_name">Trizny Larasati</string>
+    <string name="tv_expenses">Overview Expenses</string>
+    <string name="tv_total_expense">TOTAL</string>
+    <string name="tv_income">Overview Income</string>
+    <string name="tv_salary">Salary</string>
+    <string name="tv_investment">Invesment</string>
+    <string name="tv_total_income">TOTAL</string>
+    <string name="synchronize">Synchronize</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="transaction">Transaction</string>
+    <string name="tv_expenses_2">New Expense</string>
+    <string name="ins_desc_expenses">expense description</string>
+    <string name="ins_amount_expenses">expense amount</string>
+    <string name="ins_desc_incomes">income description</string>
+    <string name="ins_amount_incomes">income amount</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="14dp"
+    tools:context="com.example.triznylarasati.incomeexpense.Transaction">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_1"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                card_view:cardCornerRadius="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_expenses_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="New Expense"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+                    <EditText
+                        android:id="@+id/ins_desc_expenses"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/ins_desc_expenses"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/tv_expenses_2" />
+
+                    <EditText
+                        android:id="@+id/ins_amount_expenses"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/ins_amount_expenses"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/ins_desc_expenses" />
+
+                    <Button
+                        android:id="@+id/add_expenses"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Add Expense"
+                        android:layout_below="@+id/ins_amount_expenses" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_2"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                card_view:cardCornerRadius="10dp"
+                android:layout_marginTop="50dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_income_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="New Income"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+                    <EditText
+                        android:id="@+id/ins_desc_incomes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/ins_desc_incomes"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/tv_income_2" />
+
+                    <EditText
+                        android:id="@+id/ins_amount_incomes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/ins_amount_incomes"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/ins_desc_incomes" />
+
+                    <Button
+                        android:id="@+id/add_incomes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Add Income"
+                        android:layout_below="@+id/ins_amount_incomes" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
